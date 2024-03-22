@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   color: #555555;
@@ -2098,16 +2102,22 @@ footer .credits {
   margin-top: 10px;
   border: 1px solid #2eca6a;
 }
-.lydo-content>i{
+
+.lydo-content>i {
   font-size: 26px;
   margin: 10px auto;
   padding: 10px;
 }
-.lydo-content>i:hover{
+
+.lydo-content>i:hover {
   color: #26a356;
 }
 
-.lydo-content>h4{
+.lydo-content>h4 {
   text-align: center;
   margin-top: 20px;
+}
+
+.icon-box-content>a{
+  font-size: 20px;
 }
